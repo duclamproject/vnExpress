@@ -321,3 +321,328 @@ li.li-first a {
   font-size: 1.6rem;
   color: black;
 }
+@media (max-width: 1000px) {
+  html {
+    font-size: 30%;
+  }
+  body {
+    font-size: 1.6rem;
+    font-size: 1.4rem;
+    color: rgb(117, 117, 117);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* Header row 1 */
+  /* .cn-0 {
+    padding-left: 30rem;
+  } */
+  .cn-0,
+  .cn-1,
+  .cn-2,
+  .cn-4,
+  .cn-3,
+  .cn-5 {
+    padding-inline: 1.8rem;
+  }
+  .main-header-row-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+  }
+  .cn-2 {
+    margin-right: 20rem;
+  }
+  .cn3-2,
+  .cn3-1 {
+    position: relative;
+    right: 20rem;
+  }
+  .cn-3 {
+    display: flex;
+  }
+  a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+  }
+  .cn-6 {
+    display: flex;
+  }
+  .cn-6_x {
+    padding-inline: 1rem;
+  }
+  .hover-header-1:hover {
+    text-shadow: 0.1rem 0.1rem 0rem black;
+    color: pink;
+    /* background-color: yellow; */
+    border-radius: 2rem;
+  }
+  /* Header row 2 */
+  .main-header-row-2 {
+    color: black;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0rem;
+  }
+  .main-header-row-2 ul {
+    display: flex;
+  }
+  .infor {
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .infor:hover {
+    /* font-size: 1.7rem; */
+    text-shadow: 1px 1px 0px black;
+    color: pink;
+    background-color: yellow;
+    border-radius: 20px;
+  }
+  .infor:active {
+    background-image: linear-gradient(
+      to bottom left,
+      green,
+      yellow,
+      pink,
+      blue,
+      blueviolet
+    );
+  }
+  /* main */
+  .box-main-boss {
+    width: 110rem;
+    height: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    display: flex;
+    font-size: 1.7rem;
+  }
+  .firstWomen {
+    max-width: 44rem;
+    max-height: 26.4rem;
+  }
+  .infor-big.infor-1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .p-main {
+    margin: 1rem 1.5rem;
+  }
+  .p-main.p-main-1 {
+    font-weight: 700;
+    color: black;
+  }
+  .box-main-1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  h2.h2-main-1 {
+    padding: 1rem;
+  }
+  .fa-message {
+    padding: 1.5rem 0.2rem;
+  }
+  .box-main-1 p {
+    padding: 1rem 0rem;
+  }
+  .main-1-big {
+    display: flex;
+    flex-direction: column;
+  }
+  .cot-duoi {
+    display: flex;
+    justify-content: center;
+  }
+  .main-1-small img {
+    max-width: 33rem;
+    max-height: 49rem;
+  }
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+  }
+  .anhCotNho1,
+  .content-nho-2-img {
+    max-width: 22rem;
+    max-height: 15rem;
+  }
+  .cot-duoi {
+    font-size: 1.5rem;
+  }
+  .content-nho {
+    font-size: 1.5rem;
+  }
+  h2.content-nho {
+    line-height: 2rem;
+    color: black;
+  }
+  .fa-solid.fa-message {
+    font-size: 1rem;
+  }
+  .nho2 {
+    padding: 0rem 0.2rem;
+  }
+  .span-nho-1 {
+    padding: 0rem 0.2rem;
+  }
+  .nho.nho2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem;
+  }
+  h2.content-nho-2 {
+    line-height: 2rem;
+    color: back;
+  }
+  h2.h2-main-1 {
+    padding-left: 1.5rem;
+  }
+  img.content-nho-2-img {
+    padding-top: 3.9rem;
+    max-height: 16rem;
+  }
+  .content-nho-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+  }
+  .box-chua-avt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 4.5rem;
+  }
+  .kc {
+    padding-bottom: 1rem;
+  }
+  p.kc.content-nho-3 {
+    padding-bottom: 4rem;
+  }
+  .box-chua-content {
+    line-height: 1rem;
+  }
+  img.chua-avt {
+    display: block;
+    max-width: 7.2rem;
+    border-radius: 50%;
+  }
+  i.mes-nho-1 {
+    color: rgb(117, 117, 117);
+  }
+  h2 {
+    color: black;
+  }
+  h2.kc.content-nho-3-1 {
+    color: rgb(159, 34, 78);
+  }
+  i.psFixed {
+    font-size: 5em;
+    position: fixed;
+    bottom: 5rem;
+    right: 4.5rem;
+    color: black;
+  }
+  i.psFixed:hover {
+    color: red;
+  }
+  /* Nội dung chính */
+  .main-chinh {
+    display: flex;
+    flex-direction: row;
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phan-doc {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+  }
+  .div-main-chinh-1,
+  .div-main-chinh-2 {
+    display: flex;
+    /* max-width: 35rem; */
+    max-height: 10rem;
+  }
+  .div-main-chinh-1 img,
+  .div-main-chinh-2 img {
+    max-width: 14.5rem;
+    max-height: 8.7rem;
+    padding: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .div-main-chinh-1 p,
+  .div-main-chinh-2 p {
+    padding: 0.5rem 1rem;
+  }
+  .box-1-main-chinh h2,
+  .box-2-main-chinh h2 {
+    padding: 1rem 0rem;
+  }
+  .phan-ngang {
+    display: flex;
+    flex-direction: column;
+  }
+  .phan-ngang-1 ul {
+    display: flex;
+    align-items: baseline;
+  }
+  .phan-ngang-1 ul li {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 1rem;
+    padding-bottom: 2.8rem;
+  }
+  .phan-ngang-2 {
+    display: flex;
+  }
+  .phan-ngang-2 img {
+    max-width: 22.5rem;
+    max-height: 13.5rem;
+    padding: 0rem 2.3rem;
+  }
+  li.li-first a {
+    color: black;
+    font-size: 2.2rem;
+    text-decoration: underline;
+  }
+  .box-phan-ngang-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 23.5rem;
+    max-height: 8rem;
+  }
+  .box-phan-ngang-2 p,
+  .box-phan-ngang-2 h2 {
+    padding-right: 2rem;
+  }
+  .box-phan-ngang-2 h2 {
+    padding-bottom: 1.1rem;
+  }
+  .phan-ngang-3 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 68rem;
+    max-height: 10rem;
+  }
+  .phan-ngang-3 ul li a {
+    display: block;
+    margin: 5rem;
+    font-size: 1.6rem;
+    color: black;
+  }
+}
